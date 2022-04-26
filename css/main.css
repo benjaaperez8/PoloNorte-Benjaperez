@@ -1,0 +1,80 @@
+@import url('htttps://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*============MENU============*/
+
+#menu{
+    background:
+    peru;
+}
+#menu a{
+    font-size:18px;
+    font-weight: bold;
+    color: #3f3f3f;
+   
+}
+
+
+
+/*=====CAROUSEL======*/
+
+.carousel-inner{
+    max-height: 39rem;
+}
+footer{
+    background: #0e0e0c;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+
+}
+
+@media (max-width:768px){
+    #intro{
+        width: 90%;
+    }
+    .servicion-fila{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+#sucursales div{
+    background: black;
+ 
+}
+
+#sucursales div span{
+    color:white;
+    font-size:xx-large;
+}
+
+#sucarou img{
+   width: 80%;
+    display: block;
+}
+
+#suc1texto{
+    color: rgb(185, 165, 35);
+    margin-top: 3px;
+}
+
